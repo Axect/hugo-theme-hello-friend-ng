@@ -16,7 +16,7 @@ body {
   padding: 0;
   font-family: 'Seoul Hangang', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-display: auto;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.54;
   background-color: $light-background;
   color: $light-color;
@@ -31,7 +31,7 @@ body {
   flex-direction: column;
 
   @media #{$media-size-phone} {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   &.dark-theme {
@@ -51,15 +51,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.625rem;
+  font-size: 1.7875rem;
 }
 
 h3 {
-  font-size: 1.375rem;
+  font-size: 1.5125rem;
 }
 
 h4 {
-  font-size: 1.125rem;
+  font-size: 1.2375rem;
 }
 
 @media #{$media-size-phone} {
@@ -68,15 +68,15 @@ h4 {
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   h3 {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
   }
 
   h4 {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
   }
 }
 
