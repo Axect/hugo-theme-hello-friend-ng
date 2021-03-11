@@ -330,3 +330,42 @@ hr {
 	text-decoration: none;
 	z-index: 100000;
 }
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-family: 'Seoul Hangang';
+  min-width: 550px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+  background-color: #2146c0;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #0a0098;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #9192bb;
+}
