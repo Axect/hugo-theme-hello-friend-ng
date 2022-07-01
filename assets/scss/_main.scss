@@ -206,6 +206,12 @@ pre {
   }
 }
 
+h1, h2, h3, h4, h5 {
+  code {
+    font-size: inherit
+  }
+}
+
 blockquote {
   border-left: 2px solid;
   margin: 40px;
