@@ -216,6 +216,7 @@ blockquote {
   border-left: 2px solid;
   margin: 40px;
   padding: 10px 20px;
+  overflow:auto;
 
   @media #{$media-size-phone} {
     margin: 10px;
@@ -493,6 +494,7 @@ $bg: #fff;
   margin: 0em;
   max-width:100%;
   overflow:hidden;
+  position: relative;
   blockquote {
     background-color: $bg;
     border: solid 2px #757575;
@@ -526,12 +528,15 @@ $bg: #fff;
       display: block;
       font-style: italic;
       text-align: right;
+      position: relative;
       &:before {
         content: "- ";
       }
     }
     > * {
       position: relative;
+      margin: 0em;
+      padding: 0em;
       z-index: 1;
     }
   }
